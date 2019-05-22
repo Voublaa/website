@@ -332,19 +332,22 @@ $(window).load(function() {
        
       .loader {
     position: fixed;
-    left: 50%;
-    top: 50%;
-	      transform:translate(-50%, -50%);
     width:100%;
     z-index: 9999;
     background-color:white;
     
 }
+		.loader_ct {
+			position:fixed;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+			width:60px;
         </style>
     </head>
         <body>
        
-<div class="loader"><img src="one/loading.gif" width="100%"/></div>
+		<div class="loader"><div class="loader_ct"><img src="one/loading.gif" width="100%"/></div></div>
 
             <div class="main_activity">
 
