@@ -1,6 +1,15 @@
 <html>
 <head>
+<script type="text/javascript">
+window.history.pushState({page: 1}, "", "");
 
+window.onpopstate = function(event) {
+    if(event){
+        window.location.href = 'https://voublaa.github.io/website/english/home1/';
+        // Code to handle back button or prevent from navigation
+    }
+}
+</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	    
 	    <script type="text/javascript">
